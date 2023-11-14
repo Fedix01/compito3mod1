@@ -77,11 +77,15 @@ ESERCIZIO 2
 /* SCRIVI QUI LA TUA RISPOSTA */
 // let num1 = 6;
 // let num2 = 2;
-// if (num1 === 8 || num1 + num2 === 8) {
+// if (num1 === 8) {
+//     console.log("il valore è 8")
+// } else if (num1 + num2 === 8) {
+//     console.log("il valore è 8")
+// } else if (num1 - num2 === 8) {
 //     console.log("il valore è 8")
 // } else {
 //     console.log("il valore non è 8")
-// }
+// };
 /* ESERCIZIO EXTRA 2
 Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
 C'Ã¨ una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -117,14 +121,14 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia Ã¨ multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero Ã¨ multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
 // for (let i = 1; i <= 100; i++) {
-//     if (i % 3 === 0) {
-//         console.log("Fizz")
-//         continue;
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz")
+//         continue
 //     } else if (i % 5 === 0) {
 //         console.log("Buzz")
-//         continue;
-//     } else if (i % 15 === 0) {
-//         console.log("FizzBuzz")
-
+//         continue
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz")
+//         continue
 //     } console.log(i)
 // };
